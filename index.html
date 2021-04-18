@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <title>antivirus</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-side">
+        <div class="form-header">
+          <h4>ورود</h4>
+        </div>
+        <div class="form">
+          <div class="form-title">
+            <h2>ورود به حساب کاربری</h2>
+            <p>جهت ورود به برنامه نام کاربری و رمز عبور خود را وارد نمایید</p>
+          </div>
+          <form action="">
+            <div class="username">
+              <input type="text" placeholder="پست الکترونیک" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="password">
+              <input type="password" placeholder="رمز عبور" />
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="verification">
+              <div class="veri-input">
+                <input type="text" placeholder="کد امنیتی" />
+                <i class="fas fa-stroopwafel"></i>
+              </div>
+              <img src="./Captcha.jpg" alt="" />
+            </div>
+            <button class="btn" type="submit">ورود</button>
+            <label for="remember">
+              <input type="checkbox" name="remember" id="remember" />
+              مرا به خاطر بسپار
+            </label>
+          </form>
+        </div>
+      </div>
+      <div class="radar-side">
+        <img class="logo" src="./shield.png" alt="" />
+   
+        <div class="circles">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+          <div class="circle5"></div>
+        </div>
+        <div class="radar"></div>
+        <div class="footer">Multi Anti-Virus & Cybersecurity</div>
+      </div>
+    </div>
+  </body>
+</html>
