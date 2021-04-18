@@ -202,7 +202,13 @@ form {
   z-index: 5;
 }
 
-
+.anti{
+    position: absolute;
+    top: 56%;
+    z-index: 6;
+    color: rgb(224, 224, 224);
+    text-shadow: 0 2px 10px grey;
+}
 
 .circles {
   position: relative;
